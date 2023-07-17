@@ -1,0 +1,51 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "beli": [
+    {
+      "id": 1,
+      "beli": "Skincare",
+      "price": "Rp 1.000.000",
+      "payment": "Debit",
+      "jenis": "Barang",
+      "tujuan": [
+        "Kebutuhan"
+      ]
+    },
+    {
+      "beli": "Baso",
+      "price": "Rp 30.000",
+      "payment": "Cash",
+      "jenis": "Makanan",
+      "tujuan": [
+        "Kebutuhan"
+      ],
+      "id": 2
+    },
+    {
+      "id": 8,
+      "beli": "es krim",
+      "price": "Rp 40.000",
+      "payment": "cash",
+      "jenis": "Makanan",
+      "tujuan": [
+        "Keinginan"
+      ]
+    }
+  ]
+}
